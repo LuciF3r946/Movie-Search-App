@@ -1,0 +1,6 @@
+ 
+ condition rendering
+ 
+ const movieNumvber = 1
+ {movieNumvber == 1 && <MovieCard movie={{ title: "Interstellar", release_date: "2014" }} />}
+      {movieNumvber == 2 && <MovieCard movie={{ title: "inception", release_date: "2020" }} />}
